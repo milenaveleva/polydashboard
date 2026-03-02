@@ -25,6 +25,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/wallet/[address]/stats/route.js"
+    ],
+    "/wallets/top-win-rate/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wallets/top-win-rate/page.js"
+    ],
+    "/api/wallets/top-win-rate/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/wallets/top-win-rate/route.js"
     ]
   }
 }
