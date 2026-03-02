@@ -14,8 +14,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Polymarket Whale Dashboard",
-  description: "Track whale bets and analyze prediction markets",
+  title: "Polymarket Wallet Tracker",
+  description: "Track any wallet's Polymarket positions and measure their market impact",
 };
 
 export default function RootLayout({

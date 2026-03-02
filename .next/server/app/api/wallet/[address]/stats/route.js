@@ -1,0 +1,144 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "app/api/wallet/[address]/stats/route";
+exports.ids = ["app/api/wallet/[address]/stats/route"];
+exports.modules = {
+
+/***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
+/*!*************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
+  \*************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/app-route.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-route.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/app-route.runtime.dev.js");
+
+/***/ }),
+
+/***/ "../app-render/after-task-async-storage.external":
+/*!***********************************************************************************!*\
+  !*** external "next/dist/server/app-render/after-task-async-storage.external.js" ***!
+  \***********************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/after-task-async-storage.external.js");
+
+/***/ }),
+
+/***/ "../app-render/work-async-storage.external":
+/*!*****************************************************************************!*\
+  !*** external "next/dist/server/app-render/work-async-storage.external.js" ***!
+  \*****************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/work-async-storage.external.js");
+
+/***/ }),
+
+/***/ "./work-unit-async-storage.external":
+/*!**********************************************************************************!*\
+  !*** external "next/dist/server/app-render/work-unit-async-storage.external.js" ***!
+  \**********************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/work-unit-async-storage.external.js");
+
+/***/ }),
+
+/***/ "module":
+/*!*************************!*\
+  !*** external "module" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("module");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&page=%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute.ts&appDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&page=%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute.ts&appDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   patchFetch: () => (/* binding */ patchFetch),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   serverHooks: () => (/* binding */ serverHooks),\n/* harmony export */   workAsyncStorage: () => (/* binding */ workAsyncStorage),\n/* harmony export */   workUnitAsyncStorage: () => (/* binding */ workUnitAsyncStorage)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/route-modules/app-route/module.compiled */ \"(rsc)/./node_modules/next/dist/server/route-modules/app-route/module.compiled.js\");\n/* harmony import */ var next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/route-kind */ \"(rsc)/./node_modules/next/dist/server/route-kind.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/server/lib/patch-fetch */ \"(rsc)/./node_modules/next/dist/server/lib/patch-fetch.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _Users_milenaveleva_Git_polydashboard_src_app_api_wallet_address_stats_route_ts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/app/api/wallet/[address]/stats/route.ts */ \"(rsc)/./src/app/api/wallet/[address]/stats/route.ts\");\n\n\n\n\n// We inject the nextConfigOutput here so that we can use them in the route\n// module.\nconst nextConfigOutput = \"\"\nconst routeModule = new next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppRouteRouteModule({\n    definition: {\n        kind: next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_ROUTE,\n        page: \"/api/wallet/[address]/stats/route\",\n        pathname: \"/api/wallet/[address]/stats\",\n        filename: \"route\",\n        bundlePath: \"app/api/wallet/[address]/stats/route\"\n    },\n    resolvedPagePath: \"/Users/milenaveleva/Git/polydashboard/src/app/api/wallet/[address]/stats/route.ts\",\n    nextConfigOutput,\n    userland: _Users_milenaveleva_Git_polydashboard_src_app_api_wallet_address_stats_route_ts__WEBPACK_IMPORTED_MODULE_3__\n});\n// Pull out the exports that we need to expose from the module. This should\n// be eliminated when we've moved the other routes to the new format. These\n// are used to hook into the route.\nconst { workAsyncStorage, workUnitAsyncStorage, serverHooks } = routeModule;\nfunction patchFetch() {\n    return (0,next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__.patchFetch)({\n        workAsyncStorage,\n        workUnitAsyncStorage\n    });\n}\n\n\n//# sourceMappingURL=app-route.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIvaW5kZXguanM/bmFtZT1hcHAlMkZhcGklMkZ3YWxsZXQlMkYlNUJhZGRyZXNzJTVEJTJGc3RhdHMlMkZyb3V0ZSZwYWdlPSUyRmFwaSUyRndhbGxldCUyRiU1QmFkZHJlc3MlNUQlMkZzdGF0cyUyRnJvdXRlJmFwcFBhdGhzPSZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFwaSUyRndhbGxldCUyRiU1QmFkZHJlc3MlNUQlMkZzdGF0cyUyRnJvdXRlLnRzJmFwcERpcj0lMkZVc2VycyUyRm1pbGVuYXZlbGV2YSUyRkdpdCUyRnBvbHlkYXNoYm9hcmQlMkZzcmMlMkZhcHAmcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyZyb290RGlyPSUyRlVzZXJzJTJGbWlsZW5hdmVsZXZhJTJGR2l0JTJGcG9seWRhc2hib2FyZCZpc0Rldj10cnVlJnRzY29uZmlnUGF0aD10c2NvbmZpZy5qc29uJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD0mcHJlZmVycmVkUmVnaW9uPSZtaWRkbGV3YXJlQ29uZmlnPWUzMCUzRCEiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBK0Y7QUFDdkM7QUFDcUI7QUFDaUM7QUFDOUc7QUFDQTtBQUNBO0FBQ0Esd0JBQXdCLHlHQUFtQjtBQUMzQztBQUNBLGNBQWMsa0VBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQSxLQUFLO0FBQ0w7QUFDQTtBQUNBLFlBQVk7QUFDWixDQUFDO0FBQ0Q7QUFDQTtBQUNBO0FBQ0EsUUFBUSxzREFBc0Q7QUFDOUQ7QUFDQSxXQUFXLDRFQUFXO0FBQ3RCO0FBQ0E7QUFDQSxLQUFLO0FBQ0w7QUFDMEY7O0FBRTFGIiwic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQXBwUm91dGVSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL3JvdXRlLW1vZHVsZXMvYXBwLXJvdXRlL21vZHVsZS5jb21waWxlZFwiO1xuaW1wb3J0IHsgUm91dGVLaW5kIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvcm91dGUta2luZFwiO1xuaW1wb3J0IHsgcGF0Y2hGZXRjaCBhcyBfcGF0Y2hGZXRjaCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2xpYi9wYXRjaC1mZXRjaFwiO1xuaW1wb3J0ICogYXMgdXNlcmxhbmQgZnJvbSBcIi9Vc2Vycy9taWxlbmF2ZWxldmEvR2l0L3BvbHlkYXNoYm9hcmQvc3JjL2FwcC9hcGkvd2FsbGV0L1thZGRyZXNzXS9zdGF0cy9yb3V0ZS50c1wiO1xuLy8gV2UgaW5qZWN0IHRoZSBuZXh0Q29uZmlnT3V0cHV0IGhlcmUgc28gdGhhdCB3ZSBjYW4gdXNlIHRoZW0gaW4gdGhlIHJvdXRlXG4vLyBtb2R1bGUuXG5jb25zdCBuZXh0Q29uZmlnT3V0cHV0ID0gXCJcIlxuY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgQXBwUm91dGVSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuQVBQX1JPVVRFLFxuICAgICAgICBwYWdlOiBcIi9hcGkvd2FsbGV0L1thZGRyZXNzXS9zdGF0cy9yb3V0ZVwiLFxuICAgICAgICBwYXRobmFtZTogXCIvYXBpL3dhbGxldC9bYWRkcmVzc10vc3RhdHNcIixcbiAgICAgICAgZmlsZW5hbWU6IFwicm91dGVcIixcbiAgICAgICAgYnVuZGxlUGF0aDogXCJhcHAvYXBpL3dhbGxldC9bYWRkcmVzc10vc3RhdHMvcm91dGVcIlxuICAgIH0sXG4gICAgcmVzb2x2ZWRQYWdlUGF0aDogXCIvVXNlcnMvbWlsZW5hdmVsZXZhL0dpdC9wb2x5ZGFzaGJvYXJkL3NyYy9hcHAvYXBpL3dhbGxldC9bYWRkcmVzc10vc3RhdHMvcm91dGUudHNcIixcbiAgICBuZXh0Q29uZmlnT3V0cHV0LFxuICAgIHVzZXJsYW5kXG59KTtcbi8vIFB1bGwgb3V0IHRoZSBleHBvcnRzIHRoYXQgd2UgbmVlZCB0byBleHBvc2UgZnJvbSB0aGUgbW9kdWxlLiBUaGlzIHNob3VsZFxuLy8gYmUgZWxpbWluYXRlZCB3aGVuIHdlJ3ZlIG1vdmVkIHRoZSBvdGhlciByb3V0ZXMgdG8gdGhlIG5ldyBmb3JtYXQuIFRoZXNlXG4vLyBhcmUgdXNlZCB0byBob29rIGludG8gdGhlIHJvdXRlLlxuY29uc3QgeyB3b3JrQXN5bmNTdG9yYWdlLCB3b3JrVW5pdEFzeW5jU3RvcmFnZSwgc2VydmVySG9va3MgfSA9IHJvdXRlTW9kdWxlO1xuZnVuY3Rpb24gcGF0Y2hGZXRjaCgpIHtcbiAgICByZXR1cm4gX3BhdGNoRmV0Y2goe1xuICAgICAgICB3b3JrQXN5bmNTdG9yYWdlLFxuICAgICAgICB3b3JrVW5pdEFzeW5jU3RvcmFnZVxuICAgIH0pO1xufVxuZXhwb3J0IHsgcm91dGVNb2R1bGUsIHdvcmtBc3luY1N0b3JhZ2UsIHdvcmtVbml0QXN5bmNTdG9yYWdlLCBzZXJ2ZXJIb29rcywgcGF0Y2hGZXRjaCwgIH07XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFwcC1yb3V0ZS5qcy5tYXAiXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&page=%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute.ts&appDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true!":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true! ***!
+  \******************************************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true!":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true! ***!
+  \******************************************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/api/wallet/[address]/stats/route.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/api/wallet/[address]/stats/route.ts ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GET: () => (/* binding */ GET)\n/* harmony export */ });\n/* harmony import */ var next_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/server */ \"(rsc)/./node_modules/next/dist/api/server.js\");\n/* harmony import */ var _lib_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/lib/constants */ \"(rsc)/./src/lib/constants.ts\");\n/* harmony import */ var fflate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fflate */ \"(rsc)/./node_modules/fflate/esm/index.mjs\");\n\n\n\nasync function GET(_request, { params }) {\n    const { address } = await params;\n    if (!address || !/^0x[a-fA-F0-9]{40}$/.test(address)) {\n        return next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.json({\n            error: \"Invalid address\"\n        }, {\n            status: 400\n        });\n    }\n    try {\n        const [tradedRes, snapshotRes] = await Promise.all([\n            fetch(`${_lib_constants__WEBPACK_IMPORTED_MODULE_1__.API_BASE.DATA}/traded?user=${encodeURIComponent(address)}`, {\n                cache: \"no-store\"\n            }),\n            fetch(`${_lib_constants__WEBPACK_IMPORTED_MODULE_1__.API_BASE.DATA}/v1/accounting/snapshot?user=${encodeURIComponent(address)}`, {\n                cache: \"no-store\"\n            })\n        ]);\n        let traded = 0;\n        if (tradedRes.ok) {\n            const data = await tradedRes.json();\n            traded = data.traded ?? 0;\n        }\n        let equity = null;\n        if (snapshotRes.ok) {\n            try {\n                const buffer = await snapshotRes.arrayBuffer();\n                const u8 = new Uint8Array(buffer);\n                const decompressed = (0,fflate__WEBPACK_IMPORTED_MODULE_2__.unzipSync)(u8);\n                const equityFile = decompressed[\"equity.csv\"];\n                if (equityFile) {\n                    const csv = (0,fflate__WEBPACK_IMPORTED_MODULE_2__.strFromU8)(equityFile);\n                    const lines = csv.trim().split(\"\\n\");\n                    if (lines.length >= 2) {\n                        const cols = lines[0].split(\",\");\n                        const values = lines[1].split(\",\");\n                        const equityIdx = cols.indexOf(\"equity\");\n                        if (equityIdx !== -1) {\n                            const val = parseFloat(values[equityIdx]);\n                            if (Number.isFinite(val)) equity = val;\n                        }\n                    }\n                }\n            } catch  {\n            // Ignore snapshot parse errors\n            }\n        }\n        return next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.json({\n            traded,\n            equity\n        });\n    } catch (error) {\n        return next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.json({\n            error: error instanceof Error ? error.message : \"Failed to fetch wallet stats\"\n        }, {\n            status: 500\n        });\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2FwaS93YWxsZXQvW2FkZHJlc3NdL3N0YXRzL3JvdXRlLnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBd0Q7QUFDYjtBQUNHO0FBRXZDLGVBQWVJLElBQ3BCQyxRQUFxQixFQUNyQixFQUFFQyxNQUFNLEVBQTRDO0lBRXBELE1BQU0sRUFBRUMsT0FBTyxFQUFFLEdBQUcsTUFBTUQ7SUFDMUIsSUFBSSxDQUFDQyxXQUFXLENBQUMsc0JBQXNCQyxJQUFJLENBQUNELFVBQVU7UUFDcEQsT0FBT1AscURBQVlBLENBQUNTLElBQUksQ0FBQztZQUFFQyxPQUFPO1FBQWtCLEdBQUc7WUFBRUMsUUFBUTtRQUFJO0lBQ3ZFO0lBRUEsSUFBSTtRQUNGLE1BQU0sQ0FBQ0MsV0FBV0MsWUFBWSxHQUFHLE1BQU1DLFFBQVFDLEdBQUcsQ0FBQztZQUNqREMsTUFDRSxHQUFHZixvREFBUUEsQ0FBQ2dCLElBQUksQ0FBQyxhQUFhLEVBQUVDLG1CQUFtQlgsVUFBVSxFQUM3RDtnQkFBRVksT0FBTztZQUFXO1lBRXRCSCxNQUNFLEdBQUdmLG9EQUFRQSxDQUFDZ0IsSUFBSSxDQUFDLDZCQUE2QixFQUFFQyxtQkFBbUJYLFVBQVUsRUFDN0U7Z0JBQUVZLE9BQU87WUFBVztTQUV2QjtRQUVELElBQUlDLFNBQVM7UUFDYixJQUFJUixVQUFVUyxFQUFFLEVBQUU7WUFDaEIsTUFBTUMsT0FBUSxNQUFNVixVQUFVSCxJQUFJO1lBQ2xDVyxTQUFTRSxLQUFLRixNQUFNLElBQUk7UUFDMUI7UUFFQSxJQUFJRyxTQUF3QjtRQUM1QixJQUFJVixZQUFZUSxFQUFFLEVBQUU7WUFDbEIsSUFBSTtnQkFDRixNQUFNRyxTQUFTLE1BQU1YLFlBQVlZLFdBQVc7Z0JBQzVDLE1BQU1DLEtBQUssSUFBSUMsV0FBV0g7Z0JBQzFCLE1BQU1JLGVBQWUxQixpREFBU0EsQ0FBQ3dCO2dCQUMvQixNQUFNRyxhQUFhRCxZQUFZLENBQUMsYUFBYTtnQkFDN0MsSUFBSUMsWUFBWTtvQkFDZCxNQUFNQyxNQUFNM0IsaURBQVNBLENBQUMwQjtvQkFDdEIsTUFBTUUsUUFBUUQsSUFBSUUsSUFBSSxHQUFHQyxLQUFLLENBQUM7b0JBQy9CLElBQUlGLE1BQU1HLE1BQU0sSUFBSSxHQUFHO3dCQUNyQixNQUFNQyxPQUFPSixLQUFLLENBQUMsRUFBRSxDQUFDRSxLQUFLLENBQUM7d0JBQzVCLE1BQU1HLFNBQVNMLEtBQUssQ0FBQyxFQUFFLENBQUNFLEtBQUssQ0FBQzt3QkFDOUIsTUFBTUksWUFBWUYsS0FBS0csT0FBTyxDQUFDO3dCQUMvQixJQUFJRCxjQUFjLENBQUMsR0FBRzs0QkFDcEIsTUFBTUUsTUFBTUMsV0FBV0osTUFBTSxDQUFDQyxVQUFVOzRCQUN4QyxJQUFJSSxPQUFPQyxRQUFRLENBQUNILE1BQU1oQixTQUFTZ0I7d0JBQ3JDO29CQUNGO2dCQUNGO1lBQ0YsRUFBRSxPQUFNO1lBQ04sK0JBQStCO1lBQ2pDO1FBQ0Y7UUFFQSxPQUFPdkMscURBQVlBLENBQUNTLElBQUksQ0FBQztZQUN2Qlc7WUFDQUc7UUFDRjtJQUNGLEVBQUUsT0FBT2IsT0FBTztRQUNkLE9BQU9WLHFEQUFZQSxDQUFDUyxJQUFJLENBQ3RCO1lBQUVDLE9BQU9BLGlCQUFpQmlDLFFBQVFqQyxNQUFNa0MsT0FBTyxHQUFHO1FBQStCLEdBQ2pGO1lBQUVqQyxRQUFRO1FBQUk7SUFFbEI7QUFDRiIsInNvdXJjZXMiOlsiL1VzZXJzL21pbGVuYXZlbGV2YS9HaXQvcG9seWRhc2hib2FyZC9zcmMvYXBwL2FwaS93YWxsZXQvW2FkZHJlc3NdL3N0YXRzL3JvdXRlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5leHRSZXF1ZXN0LCBOZXh0UmVzcG9uc2UgfSBmcm9tIFwibmV4dC9zZXJ2ZXJcIjtcbmltcG9ydCB7IEFQSV9CQVNFIH0gZnJvbSBcIkAvbGliL2NvbnN0YW50c1wiO1xuaW1wb3J0IHsgdW56aXBTeW5jLCBzdHJGcm9tVTggfSBmcm9tIFwiZmZsYXRlXCI7XG5cbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBHRVQoXG4gIF9yZXF1ZXN0OiBOZXh0UmVxdWVzdCxcbiAgeyBwYXJhbXMgfTogeyBwYXJhbXM6IFByb21pc2U8eyBhZGRyZXNzOiBzdHJpbmcgfT4gfVxuKSB7XG4gIGNvbnN0IHsgYWRkcmVzcyB9ID0gYXdhaXQgcGFyYW1zO1xuICBpZiAoIWFkZHJlc3MgfHwgIS9eMHhbYS1mQS1GMC05XXs0MH0kLy50ZXN0KGFkZHJlc3MpKSB7XG4gICAgcmV0dXJuIE5leHRSZXNwb25zZS5qc29uKHsgZXJyb3I6IFwiSW52YWxpZCBhZGRyZXNzXCIgfSwgeyBzdGF0dXM6IDQwMCB9KTtcbiAgfVxuXG4gIHRyeSB7XG4gICAgY29uc3QgW3RyYWRlZFJlcywgc25hcHNob3RSZXNdID0gYXdhaXQgUHJvbWlzZS5hbGwoW1xuICAgICAgZmV0Y2goXG4gICAgICAgIGAke0FQSV9CQVNFLkRBVEF9L3RyYWRlZD91c2VyPSR7ZW5jb2RlVVJJQ29tcG9uZW50KGFkZHJlc3MpfWAsXG4gICAgICAgIHsgY2FjaGU6IFwibm8tc3RvcmVcIiB9XG4gICAgICApLFxuICAgICAgZmV0Y2goXG4gICAgICAgIGAke0FQSV9CQVNFLkRBVEF9L3YxL2FjY291bnRpbmcvc25hcHNob3Q/dXNlcj0ke2VuY29kZVVSSUNvbXBvbmVudChhZGRyZXNzKX1gLFxuICAgICAgICB7IGNhY2hlOiBcIm5vLXN0b3JlXCIgfVxuICAgICAgKSxcbiAgICBdKTtcblxuICAgIGxldCB0cmFkZWQgPSAwO1xuICAgIGlmICh0cmFkZWRSZXMub2spIHtcbiAgICAgIGNvbnN0IGRhdGEgPSAoYXdhaXQgdHJhZGVkUmVzLmpzb24oKSkgYXMgeyB0cmFkZWQ/OiBudW1iZXIgfTtcbiAgICAgIHRyYWRlZCA9IGRhdGEudHJhZGVkID8/IDA7XG4gICAgfVxuXG4gICAgbGV0IGVxdWl0eTogbnVtYmVyIHwgbnVsbCA9IG51bGw7XG4gICAgaWYgKHNuYXBzaG90UmVzLm9rKSB7XG4gICAgICB0cnkge1xuICAgICAgICBjb25zdCBidWZmZXIgPSBhd2FpdCBzbmFwc2hvdFJlcy5hcnJheUJ1ZmZlcigpO1xuICAgICAgICBjb25zdCB1OCA9IG5ldyBVaW50OEFycmF5KGJ1ZmZlcik7XG4gICAgICAgIGNvbnN0IGRlY29tcHJlc3NlZCA9IHVuemlwU3luYyh1OCk7XG4gICAgICAgIGNvbnN0IGVxdWl0eUZpbGUgPSBkZWNvbXByZXNzZWRbXCJlcXVpdHkuY3N2XCJdO1xuICAgICAgICBpZiAoZXF1aXR5RmlsZSkge1xuICAgICAgICAgIGNvbnN0IGNzdiA9IHN0ckZyb21VOChlcXVpdHlGaWxlKTtcbiAgICAgICAgICBjb25zdCBsaW5lcyA9IGNzdi50cmltKCkuc3BsaXQoXCJcXG5cIik7XG4gICAgICAgICAgaWYgKGxpbmVzLmxlbmd0aCA+PSAyKSB7XG4gICAgICAgICAgICBjb25zdCBjb2xzID0gbGluZXNbMF0uc3BsaXQoXCIsXCIpO1xuICAgICAgICAgICAgY29uc3QgdmFsdWVzID0gbGluZXNbMV0uc3BsaXQoXCIsXCIpO1xuICAgICAgICAgICAgY29uc3QgZXF1aXR5SWR4ID0gY29scy5pbmRleE9mKFwiZXF1aXR5XCIpO1xuICAgICAgICAgICAgaWYgKGVxdWl0eUlkeCAhPT0gLTEpIHtcbiAgICAgICAgICAgICAgY29uc3QgdmFsID0gcGFyc2VGbG9hdCh2YWx1ZXNbZXF1aXR5SWR4XSk7XG4gICAgICAgICAgICAgIGlmIChOdW1iZXIuaXNGaW5pdGUodmFsKSkgZXF1aXR5ID0gdmFsO1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfSBjYXRjaCB7XG4gICAgICAgIC8vIElnbm9yZSBzbmFwc2hvdCBwYXJzZSBlcnJvcnNcbiAgICAgIH1cbiAgICB9XG5cbiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLmpzb24oe1xuICAgICAgdHJhZGVkLFxuICAgICAgZXF1aXR5LFxuICAgIH0pO1xuICB9IGNhdGNoIChlcnJvcikge1xuICAgIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbihcbiAgICAgIHsgZXJyb3I6IGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogXCJGYWlsZWQgdG8gZmV0Y2ggd2FsbGV0IHN0YXRzXCIgfSxcbiAgICAgIHsgc3RhdHVzOiA1MDAgfVxuICAgICk7XG4gIH1cbn1cbiJdLCJuYW1lcyI6WyJOZXh0UmVzcG9uc2UiLCJBUElfQkFTRSIsInVuemlwU3luYyIsInN0ckZyb21VOCIsIkdFVCIsIl9yZXF1ZXN0IiwicGFyYW1zIiwiYWRkcmVzcyIsInRlc3QiLCJqc29uIiwiZXJyb3IiLCJzdGF0dXMiLCJ0cmFkZWRSZXMiLCJzbmFwc2hvdFJlcyIsIlByb21pc2UiLCJhbGwiLCJmZXRjaCIsIkRBVEEiLCJlbmNvZGVVUklDb21wb25lbnQiLCJjYWNoZSIsInRyYWRlZCIsIm9rIiwiZGF0YSIsImVxdWl0eSIsImJ1ZmZlciIsImFycmF5QnVmZmVyIiwidTgiLCJVaW50OEFycmF5IiwiZGVjb21wcmVzc2VkIiwiZXF1aXR5RmlsZSIsImNzdiIsImxpbmVzIiwidHJpbSIsInNwbGl0IiwibGVuZ3RoIiwiY29scyIsInZhbHVlcyIsImVxdWl0eUlkeCIsImluZGV4T2YiLCJ2YWwiLCJwYXJzZUZsb2F0IiwiTnVtYmVyIiwiaXNGaW5pdGUiLCJFcnJvciIsIm1lc3NhZ2UiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/api/wallet/[address]/stats/route.ts\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/lib/constants.ts":
+/*!******************************!*\
+  !*** ./src/lib/constants.ts ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   API_BASE: () => (/* binding */ API_BASE),\n/* harmony export */   CLOSED_POSITIONS_POLL_MS: () => (/* binding */ CLOSED_POSITIONS_POLL_MS),\n/* harmony export */   COLORS: () => (/* binding */ COLORS),\n/* harmony export */   IMPACT_WINDOWS: () => (/* binding */ IMPACT_WINDOWS),\n/* harmony export */   POLYMARKET_MARKET_URL: () => (/* binding */ POLYMARKET_MARKET_URL),\n/* harmony export */   POLYMARKET_PROFILE_URL: () => (/* binding */ POLYMARKET_PROFILE_URL),\n/* harmony export */   PRICE_HISTORY_INTERVALS: () => (/* binding */ PRICE_HISTORY_INTERVALS),\n/* harmony export */   WALLET_TRADES_POLL_MS: () => (/* binding */ WALLET_TRADES_POLL_MS)\n/* harmony export */ });\nconst API_BASE = {\n    GAMMA: \"https://gamma-api.polymarket.com\",\n    CLOB: \"https://clob.polymarket.com\",\n    DATA: \"https://data-api.polymarket.com\"\n};\nconst POLYMARKET_PROFILE_URL = \"https://polymarket.com/profile\";\nconst POLYMARKET_MARKET_URL = \"https://polymarket.com/event\";\nconst PRICE_HISTORY_INTERVALS = [\n    \"1h\",\n    \"6h\",\n    \"1d\",\n    \"1w\",\n    \"1m\",\n    \"max\",\n    \"all\"\n];\nconst CLOSED_POSITIONS_POLL_MS = 120000;\nconst WALLET_TRADES_POLL_MS = 30000;\nconst COLORS = {\n    gold: \"#c9a84c\",\n    crimson: \"#c94c4c\",\n    teal: \"#4cc9a8\",\n    background: \"#0a0a0f\",\n    surface: \"#111118\",\n    border: \"#1e1e2e\"\n};\nconst IMPACT_WINDOWS = [\n    {\n        key: \"1h\",\n        label: \"1h\",\n        seconds: 3600\n    },\n    {\n        key: \"6h\",\n        label: \"6h\",\n        seconds: 21600\n    },\n    {\n        key: \"24h\",\n        label: \"24h\",\n        seconds: 86400\n    }\n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvbGliL2NvbnN0YW50cy50cyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFPLE1BQU1BLFdBQVc7SUFDdEJDLE9BQU87SUFDUEMsTUFBTTtJQUNOQyxNQUFNO0FBQ1IsRUFBVztBQUVKLE1BQU1DLHlCQUF5QixpQ0FBaUM7QUFDaEUsTUFBTUMsd0JBQXdCLCtCQUErQjtBQUU3RCxNQUFNQywwQkFBMEI7SUFBQztJQUFNO0lBQU07SUFBTTtJQUFNO0lBQU07SUFBTztDQUFNLENBQVU7QUFHdEYsTUFBTUMsMkJBQTJCLE9BQVE7QUFDekMsTUFBTUMsd0JBQXdCLE1BQU87QUFFckMsTUFBTUMsU0FBUztJQUNwQkMsTUFBTTtJQUNOQyxTQUFTO0lBQ1RDLE1BQU07SUFDTkMsWUFBWTtJQUNaQyxTQUFTO0lBQ1RDLFFBQVE7QUFDVixFQUFXO0FBRUosTUFBTUMsaUJBQWlCO0lBQzVCO1FBQUVDLEtBQUs7UUFBZUMsT0FBTztRQUFNQyxTQUFTO0lBQUs7SUFDakQ7UUFBRUYsS0FBSztRQUFlQyxPQUFPO1FBQU1DLFNBQVM7SUFBTTtJQUNsRDtRQUFFRixLQUFLO1FBQWdCQyxPQUFPO1FBQU9DLFNBQVM7SUFBTTtDQUNyRCxDQUFDIiwic291cmNlcyI6WyIvVXNlcnMvbWlsZW5hdmVsZXZhL0dpdC9wb2x5ZGFzaGJvYXJkL3NyYy9saWIvY29uc3RhbnRzLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBBUElfQkFTRSA9IHtcbiAgR0FNTUE6IFwiaHR0cHM6Ly9nYW1tYS1hcGkucG9seW1hcmtldC5jb21cIixcbiAgQ0xPQjogXCJodHRwczovL2Nsb2IucG9seW1hcmtldC5jb21cIixcbiAgREFUQTogXCJodHRwczovL2RhdGEtYXBpLnBvbHltYXJrZXQuY29tXCIsXG59IGFzIGNvbnN0O1xuXG5leHBvcnQgY29uc3QgUE9MWU1BUktFVF9QUk9GSUxFX1VSTCA9IFwiaHR0cHM6Ly9wb2x5bWFya2V0LmNvbS9wcm9maWxlXCI7XG5leHBvcnQgY29uc3QgUE9MWU1BUktFVF9NQVJLRVRfVVJMID0gXCJodHRwczovL3BvbHltYXJrZXQuY29tL2V2ZW50XCI7XG5cbmV4cG9ydCBjb25zdCBQUklDRV9ISVNUT1JZX0lOVEVSVkFMUyA9IFtcIjFoXCIsIFwiNmhcIiwgXCIxZFwiLCBcIjF3XCIsIFwiMW1cIiwgXCJtYXhcIiwgXCJhbGxcIl0gYXMgY29uc3Q7XG5leHBvcnQgdHlwZSBQcmljZUhpc3RvcnlJbnRlcnZhbCA9ICh0eXBlb2YgUFJJQ0VfSElTVE9SWV9JTlRFUlZBTFMpW251bWJlcl07XG5cbmV4cG9ydCBjb25zdCBDTE9TRURfUE9TSVRJT05TX1BPTExfTVMgPSAxMjBfMDAwO1xuZXhwb3J0IGNvbnN0IFdBTExFVF9UUkFERVNfUE9MTF9NUyA9IDMwXzAwMDtcblxuZXhwb3J0IGNvbnN0IENPTE9SUyA9IHtcbiAgZ29sZDogXCIjYzlhODRjXCIsXG4gIGNyaW1zb246IFwiI2M5NGM0Y1wiLFxuICB0ZWFsOiBcIiM0Y2M5YThcIixcbiAgYmFja2dyb3VuZDogXCIjMGEwYTBmXCIsXG4gIHN1cmZhY2U6IFwiIzExMTExOFwiLFxuICBib3JkZXI6IFwiIzFlMWUyZVwiLFxufSBhcyBjb25zdDtcblxuZXhwb3J0IGNvbnN0IElNUEFDVF9XSU5ET1dTID0gW1xuICB7IGtleTogXCIxaFwiIGFzIGNvbnN0LCBsYWJlbDogXCIxaFwiLCBzZWNvbmRzOiAzNjAwIH0sXG4gIHsga2V5OiBcIjZoXCIgYXMgY29uc3QsIGxhYmVsOiBcIjZoXCIsIHNlY29uZHM6IDIxNjAwIH0sXG4gIHsga2V5OiBcIjI0aFwiIGFzIGNvbnN0LCBsYWJlbDogXCIyNGhcIiwgc2Vjb25kczogODY0MDAgfSxcbl07XG4iXSwibmFtZXMiOlsiQVBJX0JBU0UiLCJHQU1NQSIsIkNMT0IiLCJEQVRBIiwiUE9MWU1BUktFVF9QUk9GSUxFX1VSTCIsIlBPTFlNQVJLRVRfTUFSS0VUX1VSTCIsIlBSSUNFX0hJU1RPUllfSU5URVJWQUxTIiwiQ0xPU0VEX1BPU0lUSU9OU19QT0xMX01TIiwiV0FMTEVUX1RSQURFU19QT0xMX01TIiwiQ09MT1JTIiwiZ29sZCIsImNyaW1zb24iLCJ0ZWFsIiwiYmFja2dyb3VuZCIsInN1cmZhY2UiLCJib3JkZXIiLCJJTVBBQ1RfV0lORE9XUyIsImtleSIsImxhYmVsIiwic2Vjb25kcyJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/lib/constants.ts\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/fflate"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&page=%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fwallet%2F%5Baddress%5D%2Fstats%2Froute.ts&appDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fmilenaveleva%2FGit%2Fpolydashboard&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();

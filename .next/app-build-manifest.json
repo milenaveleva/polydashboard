@@ -6,20 +6,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/market/[slug]/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/market/[slug]/page.js"
+      "static/chunks/app/page.js"
+    ],
+    "/wallet/[address]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wallet/[address]/page.js"
     ],
     "/api/proxy/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/proxy/route.js"
     ],
-    "/page": [
+    "/api/wallet/[address]/stats/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/api/wallet/[address]/stats/route.js"
     ]
   }
 }

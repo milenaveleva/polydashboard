@@ -1,38 +1,4 @@
-// Gamma API — Market (from list markets / get by slug)
-export interface Market {
-  id: string;
-  question: string | null;
-  conditionId: string;
-  slug: string | null;
-  endDate: string | null;
-  category: string | null;
-  liquidity: string | null;
-  volume: string | null;
-  volumeNum: number | null;
-  liquidityNum: number | null;
-  outcomePrices: string | null;
-  outcomes: string | null;
-  active: boolean | null;
-  closed: boolean | null;
-  description: string | null;
-  resolutionSource: string | null;
-  clobTokenIds: string | null;
-  volume24hr: number | null;
-  volume1wk: number | null;
-  volume1mo: number | null;
-  endDateIso: string | null;
-  startDateIso: string | null;
-  [key: string]: unknown;
-}
-
-// CLOB API — price history
-export interface PriceHistoryResponse {
-  history: Array<{ t: number; p: number }>;
-}
-
-export type PricePoint = { t: number; p: number };
-
-// Data API — Trade (for whale feed)
+// Data API — Trade
 export interface Trade {
   proxyWallet: string;
   side: "BUY" | "SELL";
@@ -43,47 +9,105 @@ export interface Trade {
   timestamp: number;
   title?: string;
   slug?: string;
+  icon?: string;
+  eventSlug?: string;
   outcome?: string;
   outcomeIndex?: number;
   name?: string;
   pseudonym?: string;
+  bio?: string;
   profileImage?: string;
   profileImageOptimized?: string;
-  eventSlug?: string;
   transactionHash?: string;
   [key: string]: unknown;
 }
 
-// Data API — leaderboard / holder (for future use)
-export interface Holder {
+// Data API — Closed Position
+export interface ClosedPosition {
   proxyWallet: string;
-  amount: number;
-  outcomeIndex?: number;
-  name?: string;
-  pseudonym?: string;
-  profileImage?: string;
-  profileImageOptimized?: string;
-  bio?: string;
-  displayUsernamePublic?: boolean;
+  asset: string;
+  conditionId: string;
+  avgPrice: number;
+  totalBought: number;
+  realizedPnl: number;
+  curPrice: number;
+  timestamp: number;
+  title: string;
+  slug: string;
+  icon?: string;
+  eventSlug?: string;
+  outcome: string;
+  outcomeIndex: number;
+  oppositeOutcome?: string;
+  oppositeAsset?: string;
+  endDate?: string;
+  [key: string]: unknown;
 }
 
-export interface MetaHolder {
-  token: string;
-  holders: Holder[];
+// Data API — Current Position
+export interface Position {
+  proxyWallet: string;
+  asset: string;
+  conditionId: string;
+  size: number;
+  avgPrice: number;
+  initialValue: number;
+  currentValue: number;
+  cashPnl: number;
+  percentPnl: number;
+  totalBought: number;
+  realizedPnl: number;
+  percentRealizedPnl: number;
+  curPrice: number;
+  redeemable: boolean;
+  mergeable: boolean;
+  title: string;
+  slug: string;
+  icon?: string;
+  eventSlug?: string;
+  outcome: string;
+  outcomeIndex: number;
+  oppositeOutcome?: string;
+  oppositeAsset?: string;
+  endDate?: string;
+  negativeRisk?: boolean;
+  [key: string]: unknown;
 }
 
-// Filter/sort state for market browser
-export interface MarketFilters {
-  tagSlug?: string[];
-  volumeNumMin?: number;
-  volumeNumMax?: number;
-  liquidityNumMin?: number;
-  liquidityNumMax?: number;
-  endDateMin?: string;
-  endDateMax?: string;
-  hasWhaleActivity?: boolean;
-  sort?: "volume" | "newest" | "contested" | "whaleCount";
-  searchQuery?: string;
+// Gamma API — Public Profile
+export interface WalletProfile {
+  createdAt: string | null;
+  proxyWallet: string | null;
+  profileImage: string | null;
+  displayUsernamePublic: boolean | null;
+  bio: string | null;
+  pseudonym: string | null;
+  name: string | null;
+  xUsername: string | null;
+  verifiedBadge: boolean | null;
+  users?: Array<{ id: string; creator: boolean; mod: boolean }>;
 }
 
-export type SortOption = "volume" | "newest" | "contested" | "whaleCount";
+// CLOB API — price history
+export interface PriceHistoryResponse {
+  history: PricePoint[];
+}
+
+export type PricePoint = { t: number; p: number };
+
+// Trade with computed impact data (used in the UI)
+export interface TradeWithImpact extends Trade {
+  priceAtTrade: number;
+  // Short-market windows (5 min, 15 min)
+  priceAfter5m: number | null;
+  priceAfter15m: number | null;
+  // Standard windows (1h, 6h, 24h)
+  priceAfter1h: number | null;
+  priceAfter6h: number | null;
+  priceAfter24h: number | null;
+  impact5m: number | null;
+  impact15m: number | null;
+  impact1h: number | null;
+  impact6h: number | null;
+  impact24h: number | null;
+}

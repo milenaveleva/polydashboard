@@ -1,5 +1,6 @@
 {
   "/api/proxy/route": "app/api/proxy/route.js",
+  "/api/wallet/[address]/stats/route": "app/api/wallet/[address]/stats/route.js",
   "/page": "app/page.js",
-  "/market/[slug]/page": "app/market/[slug]/page.js"
+  "/wallet/[address]/page": "app/wallet/[address]/page.js"
 }
