@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0a0a0f;
+    --foreground: #e4e4e7;
+    --surface: #111118;
+    --border: #1e1e2e;
+    --muted-foreground: #71717a;
+    --accent-gold: #c9a84c;
+    --accent-crimson: #c94c4c;
+    --accent-teal: #4cc9a8;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
